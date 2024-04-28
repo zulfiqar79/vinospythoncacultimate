@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow: auto;
+  height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: rgba(66, 61, 61, 0.904);
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  padding: 40px;
+  gap: 200px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+#imagenLogo {
+  height: 120px;
+}
+
+.imagenPrincipal {
+  width: 100%;
+}
+
+#viñedosIndex {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viñedos-descripcion {
+  padding: 50px;
+  display: flex;
+  text-align: center;
+}
+
+.imagen-viñedos {
+  height: 300px;
+  width: 310px;
+}
+
+#ultimasNovedades {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenido-ultimas-novedades {
+  text-align: center;
+  display: flex;
+}
+
+.titulo-ultimas-novedades {
+  margin: 15px;
+}
+
+.imagen-ultimas-novedades {
+  margin: 20px;
+  height: 200px;
+  width: 310px;
+}
+
+#bodega {
+  height: 75%;
+  background-image: url(../img/header_bodega_final-1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#viñedos {
+  height: 75vh;
+  background-image: url(../img/viñedos.jpeg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#parrafoViñedos {
+  margin: 100px;
+}
+
+.mapa-titulos {
+  background-color: antiquewhite;
+  margin: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.mapa-titulos-items {
+  width: 50%;
+}
+
+#contacto {
+  height: 75vh;
+  background-image: url(../img/bodegacasera.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#formulario {
+  margin: 100px;
+}
+#tienda {
+  height: 75vh;
+  background-image: url(../img/vinorutini.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#pieDePagina {
+  background-color: rgba(17, 16, 16, 0.904);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenido-footer {
+  display: flex;
+}
+.parrafos-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
